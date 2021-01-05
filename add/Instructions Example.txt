@@ -1,0 +1,5 @@
+token 12345
+start
+start_message Hello, thanks for starting me
+text_response ""1 + 0"" ""10""
+end

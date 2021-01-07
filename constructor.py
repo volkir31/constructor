@@ -1,5 +1,5 @@
 from tkinter import *
-from add.code_blocks import *
+from src.code_blocks import *
 
 
 class Constructor(Tk):
@@ -11,7 +11,7 @@ class Constructor(Tk):
         super().__init__()
         self.geometry('500x600')
         self.title('Bot Constructor')
-        self.iconbitmap('add/lego.ico')
+        self.iconbitmap('src/lego.ico')
 
         # filename
         file_name = StringVar()

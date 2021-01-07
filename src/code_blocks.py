@@ -46,8 +46,8 @@ text_res = []
 
 
 def bot_creating(res, req, token, file_name):
-    with open('add/Instructions Example.txt', 'r') as instructions:
-        with open('add/bots/'+file_name+'.py', 'w+') as f:
+    with open('src/Instructions Example.txt', 'r') as instructions:
+        with open('src/bots/'+file_name+'.py', 'w+') as f:
             for line in instructions:
                 if line.split()[0] == 'token':
                     token = token

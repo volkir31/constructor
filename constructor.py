@@ -1,5 +1,6 @@
 from tkinter import *
 from src.code_blocks import *
+from tkinter import messagebox
 
 
 class Constructor(Tk):
@@ -63,6 +64,7 @@ class Constructor(Tk):
                 self.res.append(mes[0])
                 self.req.append(mes[1])
         bot_creating(self.res, self.req, self.ent.get(), self.filename.get())
+        messagebox.showinfo('Success', 'Success! Bot was created')
         print('Success! Bot was created')
 
 
